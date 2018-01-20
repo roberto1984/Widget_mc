@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_current"
+            android:title="Current Conditions" />
+        <item
+            android:id="@+id/nav_daily"
+            android:title="Daily Statistics" />
+        <item
+            android:id="@+id/nav_dailyPlot"
+            android:title="Temperature/Dewpoint Plot" />
+        <item
+            android:id="@+id/nav_pressPlot"
+            android:title="Pressure Plot" />
+        <item
+            android:id="@+id/nav_windPlot"
+            android:title="Wind Plot" />
+        <item
+            android:id="@+id/nav_windDPlot"
+            android:title="Wind Direction Plot" />
+        <item
+            android:id="@+id/nav_humPlot"
+            android:title="Humidity Plot" />
+        <item
+            android:id="@+id/nav_rainPlot"
+            android:title="Rain Plot" />
+
+
+    </group>
+</menu>
